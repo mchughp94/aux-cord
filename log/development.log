@@ -1,0 +1,1475 @@
+Started GET "/" for 127.0.0.1 at 2017-12-18 14:29:38 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7552ms (Views: 7047.4ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:30:02 -0500
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:32:13 -0500
+Started GET "/auth/spotify/callback" for 127.0.0.1 at 2017-12-18 14:32:28 -0500
+  
+OmniAuth::Strategies::OAuth2::CallbackError (csrf_detected | CSRF detected):
+  
+omniauth (1.7.1) lib/omniauth/failure_endpoint.rb:25:in `raise_out!'
+omniauth (1.7.1) lib/omniauth/failure_endpoint.rb:20:in `call'
+omniauth (1.7.1) lib/omniauth/failure_endpoint.rb:12:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:486:in `fail!'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:75:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:32:56 -0500
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:33:16 -0500
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:33:41 -0500
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:33:51 -0500
+Started GET "/auth/spotify/callback" for 127.0.0.1 at 2017-12-18 14:34:16 -0500
+  
+OmniAuth::Strategies::OAuth2::CallbackError (csrf_detected | CSRF detected):
+  
+omniauth (1.7.1) lib/omniauth/failure_endpoint.rb:25:in `raise_out!'
+omniauth (1.7.1) lib/omniauth/failure_endpoint.rb:20:in `call'
+omniauth (1.7.1) lib/omniauth/failure_endpoint.rb:12:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:486:in `fail!'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:75:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-18 14:35:37 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 66ms (Views: 62.1ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:35:39 -0500
+Started GET "/" for 127.0.0.1 at 2017-12-18 14:37:24 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 3155ms (Views: 2829.1ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:37:30 -0500
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:38:00 -0500
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:42:33 -0500
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:44:09 -0500
+Started GET "/" for 127.0.0.1 at 2017-12-18 14:44:46 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 166ms (Views: 147.2ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:44:50 -0500
+Started GET "/" for 127.0.0.1 at 2017-12-18 14:48:36 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2880ms (Views: 2638.7ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:48:41 -0500
+Started GET "/auth/spotify/callback?code=AQASh_RhpCpG92CNCCZHqwoEvJDoZrwXFGCKwIt2VsJcm7YHDUcIspPetl9vVZ1GyciPvYXy_8c9bdGQWM_c4mzTYXN3XlyZAg_6-zOJIqIIC1AF_xLO10oUABvFUnmv4dBU76Lk7dyCb-6RXwGguNbtviCF1Yx8tOoqfTWzt0vqZtL-J_1rIrjYYCDEo7LDJxIkHrsPb4r09m37a700mtGYdO3xNpMSAEgvFioTELuUG3EVQflmISWYJARZa5foJPz7CbC8_soUwfbNnB__WXrus9_ceC2Wnx71H6VIVJCM6hPlJ1dLvj8LWEMmv6XVfo1Z37-namNS&state=f26a83efecbd89efafbc35a3021a31197f1d08c7e2db038e" for 127.0.0.1 at 2017-12-18 14:49:24 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQASh_RhpCpG92CNCCZHqwoEvJDoZrwXFGCKwIt2VsJcm7YHDUcIspPetl9vVZ1GyciPvYXy_8c9bdGQWM_c4mzTYXN3XlyZAg_6-zOJIqIIC1AF_xLO10oUABvFUnmv4dBU76Lk7dyCb-6RXwGguNbtviCF1Yx8tOoqfTWzt0vqZtL-J_1rIrjYYCDEo7LDJxIkHrsPb4r09m37a700mtGYdO3xNpMSAEgvFioTELuUG3EVQflmISWYJARZa5foJPz7CbC8_soUwfbNnB__WXrus9_ceC2Wnx71H6VIVJCM6hPlJ1dLvj8LWEMmv6XVfo1Z37-namNS", "state"=>"f26a83efecbd89efafbc35a3021a31197f1d08c7e2db038e"}
+Completed 500 Internal Server Error in 210ms
+
+
+  
+RestClient::Forbidden (403 Forbidden):
+  
+app/controllers/users_controller.rb:11:in `spotify'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 14:51:03 -0500
+Started GET "/auth/spotify/callback?code=AQDJGWO8nLCVDaauuKbS0BNKKiAKK2bFRy3M5X3qvTWOio-v383MHneWKG2K6NiqYvil8B1uT6vo3u4YGGev_COBWqIy1j-NbdwyUgSC_tJYjeWj9KtJl8i74DjDGx82i7FSI6LjA2PswzAduPat41LAjw3VXoOnYwot16vMTzpgC6eku2EjEYzWNfdfRPsSr_F3w6ZytqWoomJePD3gmEfvhYjMIdfHKj10iCGGI--5HV9nQ82524XmTv-K74UJOsaKDo9DRPcxr3SAxMG6q4jCG7yPUe6gcn3F_P-ygIomNmjJ_lGqNxoLbC9arGta9LMRpzQtOiuN&state=1e001b34c766215ab2d38a09eb3f4b1d9531057e0cab146a" for 127.0.0.1 at 2017-12-18 14:51:03 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQDJGWO8nLCVDaauuKbS0BNKKiAKK2bFRy3M5X3qvTWOio-v383MHneWKG2K6NiqYvil8B1uT6vo3u4YGGev_COBWqIy1j-NbdwyUgSC_tJYjeWj9KtJl8i74DjDGx82i7FSI6LjA2PswzAduPat41LAjw3VXoOnYwot16vMTzpgC6eku2EjEYzWNfdfRPsSr_F3w6ZytqWoomJePD3gmEfvhYjMIdfHKj10iCGGI--5HV9nQ82524XmTv-K74UJOsaKDo9DRPcxr3SAxMG6q4jCG7yPUe6gcn3F_P-ygIomNmjJ_lGqNxoLbC9arGta9LMRpzQtOiuN", "state"=>"1e001b34c766215ab2d38a09eb3f4b1d9531057e0cab146a"}
+Completed 500 Internal Server Error in 181ms
+
+
+  
+RestClient::Forbidden (403 Forbidden):
+  
+app/controllers/users_controller.rb:11:in `spotify'
+Started GET "/" for 127.0.0.1 at 2017-12-18 14:51:15 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 43ms (Views: 40.3ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:01:16 -0500
+Started GET "/auth/spotify/callback?code=AQBpkxci0irrg6qsucuW1A6N_oTL31i9bOqZkfyxiJOUKf5gHW4BLtTVOVcoLuOGfoB4rWAa9OEPijA4oRR9kw2KzUppcb5-P9hYPHTbbiFKkKk9I9D5U0qRBRYn6sBKJIPRhR1orMkJJty-SPiIacBQ-xec1SisMFRFtyE59619ly9fuvjN63Lr9w7nFkgoNcYArXcYpDiz53pVPv4HBRVNxz9h3yTnN9ACBBZOMJ79dF0HePAv5IPhJqSCv1WOm7M3KuZWTxA_QuS_GMAD7CZXBKrirCg23POr-49WjGtbieVjUlfKoYsnIxUcurX4BVrsb-52uxnR&state=5133e00c094d52c99e83c6ad3bd60d38c4703d3fc0fa676e" for 127.0.0.1 at 2017-12-18 15:01:16 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQBpkxci0irrg6qsucuW1A6N_oTL31i9bOqZkfyxiJOUKf5gHW4BLtTVOVcoLuOGfoB4rWAa9OEPijA4oRR9kw2KzUppcb5-P9hYPHTbbiFKkKk9I9D5U0qRBRYn6sBKJIPRhR1orMkJJty-SPiIacBQ-xec1SisMFRFtyE59619ly9fuvjN63Lr9w7nFkgoNcYArXcYpDiz53pVPv4HBRVNxz9h3yTnN9ACBBZOMJ79dF0HePAv5IPhJqSCv1WOm7M3KuZWTxA_QuS_GMAD7CZXBKrirCg23POr-49WjGtbieVjUlfKoYsnIxUcurX4BVrsb-52uxnR", "state"=>"5133e00c094d52c99e83c6ad3bd60d38c4703d3fc0fa676e"}
+Completed 500 Internal Server Error in 196ms
+
+
+  
+RestClient::Forbidden (403 Forbidden):
+  
+app/controllers/users_controller.rb:11:in `spotify'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:01:40 -0500
+Started GET "/auth/spotify/callback?code=AQD8pbMgPTZESOpSjVjvCp5xY2vnD5e1qcOoxkWbq15rAz8okyQ1Ry7pKLp6SQV-NO4XIs4tVoQvibqaP7Ble14BsqngzprPHVX3hGjTDbMtCMHIJTTqSXipm_z2q8lpkPuioHJMdfH_A6BLqnAQdDTwXn3Df-PohN1JF0kQYJKAX9pdPe7Ho_2-YkJ-01aVBFtrF9OU9SrQQV2lyAy_dNh-IQRhLlcQmJ60IYE0PoP-yVgNfAQOZhhqlZ0C-eVTgwjk_p1MHnFQL0_b9n0M4qCFCUfu8_g4rgWuTpXCD03UgYMIt2wyXPEVNz6BUACp6QlJOD3ITQp2&state=7d9d462dd8e286d315dcb9d0d86b7b2d07c85033fdfa3bbb" for 127.0.0.1 at 2017-12-18 15:01:40 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQD8pbMgPTZESOpSjVjvCp5xY2vnD5e1qcOoxkWbq15rAz8okyQ1Ry7pKLp6SQV-NO4XIs4tVoQvibqaP7Ble14BsqngzprPHVX3hGjTDbMtCMHIJTTqSXipm_z2q8lpkPuioHJMdfH_A6BLqnAQdDTwXn3Df-PohN1JF0kQYJKAX9pdPe7Ho_2-YkJ-01aVBFtrF9OU9SrQQV2lyAy_dNh-IQRhLlcQmJ60IYE0PoP-yVgNfAQOZhhqlZ0C-eVTgwjk_p1MHnFQL0_b9n0M4qCFCUfu8_g4rgWuTpXCD03UgYMIt2wyXPEVNz6BUACp6QlJOD3ITQp2", "state"=>"7d9d462dd8e286d315dcb9d0d86b7b2d07c85033fdfa3bbb"}
+Completed 500 Internal Server Error in 184ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:14:in `spotify'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:02:57 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 38.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:03:57 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 2738ms (Views: 2509.1ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:04:02 -0500
+Started GET "/auth/spotify/callback?code=AQAdLsaz1jKnA5gpeK2Fx60J5qlFHa0idFhIezPtpn-Rbm19nRAL7FJdVbl3l9dReCtFxGR1LDrfA56EkKebktH8kSqz-MjEb-DAU8USRkICkaa1dQ5fNpHrLW6i-ES1IABIa1JlV4knafqDzT2nHTnyG09ya3ZhnJQrEyFehsbLCaSe4zszKeySJL18YlkOwBFB19spQa-NBT6_Pg0lE4-bUnVSpNPpqDMfB3LrMQXje9odVmVOoTGrgsBB0CVhLZmbfRLVsIHEez9w3s3TMzmxU6dKtYyjmd0phYtC39yBxUWyQGq090ATva0sD3Gl61o&state=b17e7e957fef463d0e79202f3e91e2c85b512a6ac96f3e95" for 127.0.0.1 at 2017-12-18 15:04:12 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQAdLsaz1jKnA5gpeK2Fx60J5qlFHa0idFhIezPtpn-Rbm19nRAL7FJdVbl3l9dReCtFxGR1LDrfA56EkKebktH8kSqz-MjEb-DAU8USRkICkaa1dQ5fNpHrLW6i-ES1IABIa1JlV4knafqDzT2nHTnyG09ya3ZhnJQrEyFehsbLCaSe4zszKeySJL18YlkOwBFB19spQa-NBT6_Pg0lE4-bUnVSpNPpqDMfB3LrMQXje9odVmVOoTGrgsBB0CVhLZmbfRLVsIHEez9w3s3TMzmxU6dKtYyjmd0phYtC39yBxUWyQGq090ATva0sD3Gl61o", "state"=>"b17e7e957fef463d0e79202f3e91e2c85b512a6ac96f3e95"}
+Completed 500 Internal Server Error in 207ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:7:in `spotify'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:09:22 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3069ms (Views: 2765.2ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:09:27 -0500
+Started GET "/auth/spotify/callback?code=AQB2IwjjLoN43C08LjUVzlDB75Iu3hNfFzNYavIFKWiRh5H6YPV8rXozuq4ofqj8fSiYUtI8Lj6ovzNuI2AnSpujVi2_G8Wsj-BF2p7SMFm1PTjYbEj07q_OwOxbD1peUaghBH01BT9XbvUwznak9Bld340UJZq9nxJPy_cQbUGYkukY8lcxz1L3g4YxSWAaUq6xqyfmgags5RFMT8lZMyCGIrsOV8HlcHv9C-WfJOU0ma3kawoBoZy4uJxJKJ3Q8hv9gaHBYR7aenwr5XM5kJ69KATkUOOMie8isotvx60W7wyWW8SfWC0LizIGCZ9AJjA&state=f29fc8211b9347aaea0a2522c2299d5e6654bddbea044305" for 127.0.0.1 at 2017-12-18 15:09:28 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQB2IwjjLoN43C08LjUVzlDB75Iu3hNfFzNYavIFKWiRh5H6YPV8rXozuq4ofqj8fSiYUtI8Lj6ovzNuI2AnSpujVi2_G8Wsj-BF2p7SMFm1PTjYbEj07q_OwOxbD1peUaghBH01BT9XbvUwznak9Bld340UJZq9nxJPy_cQbUGYkukY8lcxz1L3g4YxSWAaUq6xqyfmgags5RFMT8lZMyCGIrsOV8HlcHv9C-WfJOU0ma3kawoBoZy4uJxJKJ3Q8hv9gaHBYR7aenwr5XM5kJ69KATkUOOMie8isotvx60W7wyWW8SfWC0LizIGCZ9AJjA", "state"=>"f29fc8211b9347aaea0a2522c2299d5e6654bddbea044305"}
+Completed 500 Internal Server Error in 202ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:8:in `spotify'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:12:38 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 92ms (Views: 88.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:12:40 -0500
+Started GET "/auth/spotify/callback?code=AQDKZDo-WXKuF68sM_HePHn44AUtVy1pFpTdLXZeAlkCHonmtnVHbkqxw9zxZWS50Hvun2F2La02oJoEpY-lN0QSrYvUP8i38hOVWJzsUZzNGYg7LOHmn3C7UtUrZN6qSynMQxTAFugpXLwwFkOpzJ25sLfY_2OU9hp0oQQC7aXQqzT4GP3bQchqSzEN1zWXTn37YfyLmUfwp9lD5G2_-UnEubPL_ry9jbiosX1cJkmzXZ7e99HCR7D0cSQMLodP91Bvd0aNQ7KTdwCLJrVbv7wcHt3FLtnquhiVHroeb50xhz-KIqS75PBUqpHPO7qKk1s&state=be3e70746ce88bd3aaea41b428dc841154e844d704e22005" for 127.0.0.1 at 2017-12-18 15:12:40 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQDKZDo-WXKuF68sM_HePHn44AUtVy1pFpTdLXZeAlkCHonmtnVHbkqxw9zxZWS50Hvun2F2La02oJoEpY-lN0QSrYvUP8i38hOVWJzsUZzNGYg7LOHmn3C7UtUrZN6qSynMQxTAFugpXLwwFkOpzJ25sLfY_2OU9hp0oQQC7aXQqzT4GP3bQchqSzEN1zWXTn37YfyLmUfwp9lD5G2_-UnEubPL_ry9jbiosX1cJkmzXZ7e99HCR7D0cSQMLodP91Bvd0aNQ7KTdwCLJrVbv7wcHt3FLtnquhiVHroeb50xhz-KIqS75PBUqpHPO7qKk1s", "state"=>"be3e70746ce88bd3aaea41b428dc841154e844d704e22005"}
+Completed 500 Internal Server Error in 191ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:8:in `spotify'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:12:53 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 3128ms (Views: 2825.1ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:12:59 -0500
+Started GET "/auth/spotify/callback?code=AQC3anX3wbF2to48E0ROY5RMJ53XmHfQqGR8VTmbZ6t99pMv0_EQZaWVb6HBqzydsCnXW6sq54PtfJSlgXfT-VMUN11I-L07S4Tvk2DMzZjE9Hzcr5eqFW_OMCgygA6zpGBA081LcVeOAPAwgBgJLL58mbef9CtT6LJKTG0kpQXYfCn-AnE40tEOTWv49eS7f4pcp0XRm3BYTh4QeMF8Qeys4phXYvfC2eq721gDLxRrHHohZIAElKzsXDPkb01GOrnj9KN0l3fg_bmZdC2K1u3cPLUtI-PoSt9-6UQEgKemAZfiMhDNUAIXr6YhY1naatA&state=f9340e3b1e6308be004cb57f25661199fad96738a23e0743" for 127.0.0.1 at 2017-12-18 15:12:59 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQC3anX3wbF2to48E0ROY5RMJ53XmHfQqGR8VTmbZ6t99pMv0_EQZaWVb6HBqzydsCnXW6sq54PtfJSlgXfT-VMUN11I-L07S4Tvk2DMzZjE9Hzcr5eqFW_OMCgygA6zpGBA081LcVeOAPAwgBgJLL58mbef9CtT6LJKTG0kpQXYfCn-AnE40tEOTWv49eS7f4pcp0XRm3BYTh4QeMF8Qeys4phXYvfC2eq721gDLxRrHHohZIAElKzsXDPkb01GOrnj9KN0l3fg_bmZdC2K1u3cPLUtI-PoSt9-6UQEgKemAZfiMhDNUAIXr6YhY1naatA", "state"=>"f9340e3b1e6308be004cb57f25661199fad96738a23e0743"}
+Completed 500 Internal Server Error in 194ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:8:in `spotify'
+Started GET "/auth/spotify/callback?code=AQC3anX3wbF2to48E0ROY5RMJ53XmHfQqGR8VTmbZ6t99pMv0_EQZaWVb6HBqzydsCnXW6sq54PtfJSlgXfT-VMUN11I-L07S4Tvk2DMzZjE9Hzcr5eqFW_OMCgygA6zpGBA081LcVeOAPAwgBgJLL58mbef9CtT6LJKTG0kpQXYfCn-AnE40tEOTWv49eS7f4pcp0XRm3BYTh4QeMF8Qeys4phXYvfC2eq721gDLxRrHHohZIAElKzsXDPkb01GOrnj9KN0l3fg_bmZdC2K1u3cPLUtI-PoSt9-6UQEgKemAZfiMhDNUAIXr6YhY1naatA&state=f9340e3b1e6308be004cb57f25661199fad96738a23e0743" for 127.0.0.1 at 2017-12-18 15:13:10 -0500
+  
+OAuth2::Error (invalid_grant: Invalid authorization code
+{"error":"invalid_grant","error_description":"Invalid authorization code"}):
+  
+oauth2 (1.4.0) lib/oauth2/client.rb:119:in `request'
+oauth2 (1.4.0) lib/oauth2/client.rb:146:in `get_token'
+oauth2 (1.4.0) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:93:in `build_access_token'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:13:26 -0500
+Started GET "/auth/spotify/callback?code=AQBTow9TaTKF6dOdyqqMkOGxqRwW9bJAIiKHrMLiu21nlqNfb0PWd1_Jml3vJvTvOCnY-hCxKi2rOtG30YXqRNpteyUqei34J5RNfLUW5dZVhHWSQYTPc9lSQFahOE-Ga_pvlCSs_-LWGh3S5NaFaUvTmdqzFJz3oIegaeMipE86bU52Z8HQpraUjYtaXO-7Av3TisFLHciAQpVT7i_jyUhqKysvxnpo2v2FExrgcn9tERMzGD1plKtfec32Y72JvaWNOFD18qaPRyMbUjHpddrA3y7D5RUm1Yf0TD1r0r92Wspi2lkwSh7sxBhRVEKQrfw&state=487bbf6643cdc35b3cfd563218d34e19871a3b63d5fcc60f" for 127.0.0.1 at 2017-12-18 15:13:26 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQBTow9TaTKF6dOdyqqMkOGxqRwW9bJAIiKHrMLiu21nlqNfb0PWd1_Jml3vJvTvOCnY-hCxKi2rOtG30YXqRNpteyUqei34J5RNfLUW5dZVhHWSQYTPc9lSQFahOE-Ga_pvlCSs_-LWGh3S5NaFaUvTmdqzFJz3oIegaeMipE86bU52Z8HQpraUjYtaXO-7Av3TisFLHciAQpVT7i_jyUhqKysvxnpo2v2FExrgcn9tERMzGD1plKtfec32Y72JvaWNOFD18qaPRyMbUjHpddrA3y7D5RUm1Yf0TD1r0r92Wspi2lkwSh7sxBhRVEKQrfw", "state"=>"487bbf6643cdc35b3cfd563218d34e19871a3b63d5fcc60f"}
+Completed 406 Not Acceptable in 78ms
+
+
+  
+ActionController::UnknownFormat (UsersController#spotify is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:415:in `call_app!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:369:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:13:39 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 43ms (Views: 40.6ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:13:49 -0500
+Started GET "/auth/spotify/callback?code=AQCcuwOeiC8RmhAl1OC8p1QKJqPS5A3mHqNDSKpXeC2FKECkCiASO42rI--r4reR7nAdGETnDlXBA69ixctlKpOjPqteqEqworzxf9Ey-eXYoMccNzaJ4cGrTk8I7Xu2zTBoAkWtlHqoBXVAsqlmDheUwfLBGCXKFxjTcTqjNoYFiaYUu3sk5ybvkzPsu8ayKKLXJPe75Z2-yVZPgPCXMddiSNZbrzv_fk3crlOr0pPiYibbZD6QFgviX0XMcMPchWpDKSLMyll9ogrnY6TTgDg3WW_07lJYX1ZrWN4P0b9eDp0nvI3N-efgKqfuGLWMjDA&state=bb534014682e9b047ecc16de7e23c0ac5a06406f77d48c39" for 127.0.0.1 at 2017-12-18 15:13:49 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQCcuwOeiC8RmhAl1OC8p1QKJqPS5A3mHqNDSKpXeC2FKECkCiASO42rI--r4reR7nAdGETnDlXBA69ixctlKpOjPqteqEqworzxf9Ey-eXYoMccNzaJ4cGrTk8I7Xu2zTBoAkWtlHqoBXVAsqlmDheUwfLBGCXKFxjTcTqjNoYFiaYUu3sk5ybvkzPsu8ayKKLXJPe75Z2-yVZPgPCXMddiSNZbrzv_fk3crlOr0pPiYibbZD6QFgviX0XMcMPchWpDKSLMyll9ogrnY6TTgDg3WW_07lJYX1ZrWN4P0b9eDp0nvI3N-efgKqfuGLWMjDA", "state"=>"bb534014682e9b047ecc16de7e23c0ac5a06406f77d48c39"}
+Completed 406 Not Acceptable in 70ms
+
+
+  
+ActionController::UnknownFormat (UsersController#spotify is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:415:in `call_app!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:369:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:13:56 -0500
+Started GET "/auth/spotify/callback?code=AQA8AE3WShZ_MHbo3hRTAJyYemm3QgjyCxJSp87DFbTbrnV78zElVR63PF4cfwsJhwJ__G7o1MuRu6-nVLF-pTks3kAYfMiq5_eqx1M073k6h5ps0dvG2pRTRm-5xnesT2uBXcNLuV-HDtToNBEOyiyAZjfWwTvwfCAsbF_h3ID7W56YFrT9pG3WVMHzT5R60RW_QZdb_lcwlKigwOrjmHU2SIvZ48R_Z-HJtceqIRWTJsrSHyNKZjedi5mQ2HiVzBwCSNNicf2tvUM20xeLDRazz-r02UCmZLG9B034K5YbwS8M199ApmZO9IF4rVGDwi4&state=e634e7762a0dac40f4a1053b799be27c194405998e1c3333" for 127.0.0.1 at 2017-12-18 15:13:57 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQA8AE3WShZ_MHbo3hRTAJyYemm3QgjyCxJSp87DFbTbrnV78zElVR63PF4cfwsJhwJ__G7o1MuRu6-nVLF-pTks3kAYfMiq5_eqx1M073k6h5ps0dvG2pRTRm-5xnesT2uBXcNLuV-HDtToNBEOyiyAZjfWwTvwfCAsbF_h3ID7W56YFrT9pG3WVMHzT5R60RW_QZdb_lcwlKigwOrjmHU2SIvZ48R_Z-HJtceqIRWTJsrSHyNKZjedi5mQ2HiVzBwCSNNicf2tvUM20xeLDRazz-r02UCmZLG9B034K5YbwS8M199ApmZO9IF4rVGDwi4", "state"=>"e634e7762a0dac40f4a1053b799be27c194405998e1c3333"}
+Completed 500 Internal Server Error in 172ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:8:in `spotify'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:16:06 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 99ms (Views: 91.4ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:16:12 -0500
+Started GET "/auth/spotify/callback?code=AQDn1_by_E-RJS-1qz29EX5Gjl2MzGK-JOU3LeZP_OKrh0TymKwxhY8SgDCT4Dos1oPvdKY9_Bq5Q13BkG5QlM6mZ4yLs5sBVIcwu_HWwPMD7XvL43PXBXDbuudU_tAQkPmE3po2Ql6DYFCZnPFggi8NhU4-j9ooywj58QlqY0bi7dxE_kdwhHt83RbCPLxN7kB9L0t80bPkFrvUWXx2KVTHVhBHukCv0AxXkFiQ5GRExMtGfLHWV4ba7Yg1z5sBNA78C_8RIBUgomMZDgLPJ780wcus9SXUvLvu6rPa0KhauSOJtXU3xXDXhxf7gIdnSv4&state=8c650a34fa031351866a83e011fceda51083d4fe19d0ab4d" for 127.0.0.1 at 2017-12-18 15:16:13 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQDn1_by_E-RJS-1qz29EX5Gjl2MzGK-JOU3LeZP_OKrh0TymKwxhY8SgDCT4Dos1oPvdKY9_Bq5Q13BkG5QlM6mZ4yLs5sBVIcwu_HWwPMD7XvL43PXBXDbuudU_tAQkPmE3po2Ql6DYFCZnPFggi8NhU4-j9ooywj58QlqY0bi7dxE_kdwhHt83RbCPLxN7kB9L0t80bPkFrvUWXx2KVTHVhBHukCv0AxXkFiQ5GRExMtGfLHWV4ba7Yg1z5sBNA78C_8RIBUgomMZDgLPJ780wcus9SXUvLvu6rPa0KhauSOJtXU3xXDXhxf7gIdnSv4", "state"=>"8c650a34fa031351866a83e011fceda51083d4fe19d0ab4d"}
+Completed 500 Internal Server Error in 219ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:8:in `spotify'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:18:25 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 60ms (Views: 55.6ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:18:27 -0500
+Started GET "/auth/spotify/callback?code=AQDoZxySqZOrRJSl6gETs42-5Ng39fgrqweX9POnrxL4kw-IN10cihULHCIuqjOSXX3P0tGKx4-JXeFf7vnZi8emd-9QvRoaSVZlZuFBtEVk_EAXanwHjSl-jNUNsiieI0CXiLHnN1rhou2iuy4zr8w9F5J8dBc521bwqePJyPNvJbsv3FxjRKjomjMUqrXv0fQq90rtO4Y6T2PpOLbRjf21FRJdEGI7TwkqnUod_PHjGU_j5NjT4Mf0dGqmP2_J3mZA5VAMExW46pJszuUsXVZFVxK_jWTy0nl7lEGhmRp-xbUZqsIOL2Y7guAZQJrILCo&state=343c99941b3be84e51a1865770f7afbe6efbb1facd12ee11" for 127.0.0.1 at 2017-12-18 15:18:27 -0500
+  
+LoadError (Unable to autoload constant UsersController, expected /Users/paul/final-project/aux-cord/app/controllers/users_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:415:in `call_app!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:369:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:18:55 -0500
+Started GET "/auth/spotify/callback?code=AQCk5sakMQ_ypkdY-JXqPKqQ8fq_fc9Rh50u22UST2_zhfLAr9ulKayWFpP0qtY9S9wFA7X1QUMYz0kKQEQ7-45e6z9PzkwTjAR3XiM13lm0JvFcR7BWU3B3omLhtIbg0X16Z3l7qwFKetWorh7a013LYD2S205PXQK7Wzh3S5vvhX87dwtgDcW5v5rMLpY4k5PJO0Qjg6B_Pkjx3r3S45zKOtPkTS5iP6KyTjijlm1vot2IdAicsRSJJufU1WmnndfhEAGxqqmVTwVLJW2ockNi4x4NPj_xhrf5mIHk3M3q1ZskTUVty7Juy4GFAN6Z1q8&state=da0850cb55d74a0624f14cff3e3893c0b7fac4a6fc1641fd" for 127.0.0.1 at 2017-12-18 15:18:55 -0500
+  
+AbstractController::ActionNotFound (The action 'spotify' could not be found for UsersController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:415:in `call_app!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:369:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:19:08 -0500
+Started GET "/auth/spotify/callback?code=AQBOeBF-OxOCm0dIYt5duVKmWWoBT3VFblDTtyg4lQ7IxaEn08IYI7KWaWyNAkUN5mzRyaYbxjJLb4kSoohnSKCGAvu1BpsTbJDIzL99Vl7VNMSEAW1f4Ao4BHxKAZ67ONIHwUSNlfYrwqaS7t7HB0kBJX1Ce21O2oNlEHqS322dwHQVW-r3v0TzmOa3HC084ET_fYls68TqOAsePZlJdR7yJL7qqKgVoGZ36AsaF8yAqP1O9RdGN_xB8zkMZp05N6wrX38Wc75OmoK6jWsw2filH7Hht-Tof9PDD5kBvhhxFomgzFyK6wFF8ArFYW2i_DE&state=3bb07f316385960125fba16833cbd8c020549ee861de0e31" for 127.0.0.1 at 2017-12-18 15:19:08 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQBOeBF-OxOCm0dIYt5duVKmWWoBT3VFblDTtyg4lQ7IxaEn08IYI7KWaWyNAkUN5mzRyaYbxjJLb4kSoohnSKCGAvu1BpsTbJDIzL99Vl7VNMSEAW1f4Ao4BHxKAZ67ONIHwUSNlfYrwqaS7t7HB0kBJX1Ce21O2oNlEHqS322dwHQVW-r3v0TzmOa3HC084ET_fYls68TqOAsePZlJdR7yJL7qqKgVoGZ36AsaF8yAqP1O9RdGN_xB8zkMZp05N6wrX38Wc75OmoK6jWsw2filH7Hht-Tof9PDD5kBvhhxFomgzFyK6wFF8ArFYW2i_DE", "state"=>"3bb07f316385960125fba16833cbd8c020549ee861de0e31"}
+Completed 406 Not Acceptable in 78ms
+
+
+  
+ActionController::UnknownFormat (UsersController#spotify is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:415:in `call_app!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:369:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:19:34 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 37.7ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:19:37 -0500
+Started GET "/auth/spotify/callback?code=AQAh19RSdcdLXlQ2bRD8MIOtio2JMXVb07KpkOQZmgqf0vpk_XsrZAxi5jTSX3jsB8Ai_yv2l5e_roITAcRxMhdhl6FVETFUpPs-Kutclo0-h1mz06b90UbcTeDMZwp3goHemdNo59T26F6Cc9w9tWA-0PxFpFyorHeAW1Xv-fZJR6XXSj0eVUFWIfeY48ePrfi2MNP3xAY3ynfGq6C0XLfCUezFbzF4YViz1HS855kitH3YqhwN9mzSo_CxWToxHr9aiz8q6H9JD_uH35RGNPrcTmo5nUAzkL6esHGZBf86ZGX-Mcpx0fYveV0eL-uoTIQ&state=219d1ec4a95bc75bd3f42818db3ad1a4d3bbf0d6357c103a" for 127.0.0.1 at 2017-12-18 15:19:37 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQAh19RSdcdLXlQ2bRD8MIOtio2JMXVb07KpkOQZmgqf0vpk_XsrZAxi5jTSX3jsB8Ai_yv2l5e_roITAcRxMhdhl6FVETFUpPs-Kutclo0-h1mz06b90UbcTeDMZwp3goHemdNo59T26F6Cc9w9tWA-0PxFpFyorHeAW1Xv-fZJR6XXSj0eVUFWIfeY48ePrfi2MNP3xAY3ynfGq6C0XLfCUezFbzF4YViz1HS855kitH3YqhwN9mzSo_CxWToxHr9aiz8q6H9JD_uH35RGNPrcTmo5nUAzkL6esHGZBf86ZGX-Mcpx0fYveV0eL-uoTIQ", "state"=>"219d1ec4a95bc75bd3f42818db3ad1a4d3bbf0d6357c103a"}
+Completed 406 Not Acceptable in 61ms
+
+
+  
+ActionController::UnknownFormat (UsersController#spotify is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:415:in `call_app!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:369:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:21:55 -0500
+Started GET "/auth/spotify/callback?code=AQCRaeRYJmhXmHBiSpUQpYoQfeT12XO6nZo0p7i_s0yP3fa5J-rGWghqW01BIoAqoQ-3g-UklbboTWubwkA0ghU4iQYzUSG_2r2bHTrrZMIWDC0_-iUzCPCuKiFJyrqoGtaGxFNoM3Q-labUPw2Xdi6TVy3qk2QAw3UfsBO5Dpfnv3qp5N_8HueHQRz-oDtHIPRXFG1mUNXTTzDZzKCLcNrlhCYlX3GJSVUfXYs5c-0glwjmjsL-olSkGR4HfwWEhJf71h_WEVtq-UTPXorKS-X3y0f4KF8CX2zsLOQM8ODmTV3b0qOU9Bdvz4Rv8QiE_M8&state=df31202399315ac668de23cb20ffdd8cf43f5ef269a9ae82" for 127.0.0.1 at 2017-12-18 15:21:55 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQCRaeRYJmhXmHBiSpUQpYoQfeT12XO6nZo0p7i_s0yP3fa5J-rGWghqW01BIoAqoQ-3g-UklbboTWubwkA0ghU4iQYzUSG_2r2bHTrrZMIWDC0_-iUzCPCuKiFJyrqoGtaGxFNoM3Q-labUPw2Xdi6TVy3qk2QAw3UfsBO5Dpfnv3qp5N_8HueHQRz-oDtHIPRXFG1mUNXTTzDZzKCLcNrlhCYlX3GJSVUfXYs5c-0glwjmjsL-olSkGR4HfwWEhJf71h_WEVtq-UTPXorKS-X3y0f4KF8CX2zsLOQM8ODmTV3b0qOU9Bdvz4Rv8QiE_M8", "state"=>"df31202399315ac668de23cb20ffdd8cf43f5ef269a9ae82"}
+Completed 406 Not Acceptable in 90ms
+
+
+  
+ActionController::UnknownFormat (UsersController#spotify is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:415:in `call_app!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:369:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:22:22 -0500
+Started GET "/auth/spotify/callback?code=AQC0w-Sfrl_JXq6rjMsf_Ahc7s6_2Tpd7l5k-0OeYy2NJhLJv0lW4okheG31hY1ucZm-mlj4VyKZO0kX-sbjbbnRc0qKcwCD-JPOePM2YH7robFBHfTlo4eaX8ERQiCjGPfMtxbGB6u45wEDXPGXTnb_GFAUcnU6l5ExahVgDqkhyme4il-D8Pj2de-wXVQPOGAptvYAwZKIc6DCs0frEfAPYBBHhq6W3g4TH6J4UGuumjeqb2A4u94sYFVdPgYKKwxaiWCqk9bh6a56KKe-0K4vSkgwbPxCdwWNC3QYJiFM6lTJIwTwKNv7qeEOjHuB5HI&state=6f1b64fef85166ac09054805573c69d30c1205992519cf3e" for 127.0.0.1 at 2017-12-18 15:22:22 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQC0w-Sfrl_JXq6rjMsf_Ahc7s6_2Tpd7l5k-0OeYy2NJhLJv0lW4okheG31hY1ucZm-mlj4VyKZO0kX-sbjbbnRc0qKcwCD-JPOePM2YH7robFBHfTlo4eaX8ERQiCjGPfMtxbGB6u45wEDXPGXTnb_GFAUcnU6l5ExahVgDqkhyme4il-D8Pj2de-wXVQPOGAptvYAwZKIc6DCs0frEfAPYBBHhq6W3g4TH6J4UGuumjeqb2A4u94sYFVdPgYKKwxaiWCqk9bh6a56KKe-0K4vSkgwbPxCdwWNC3QYJiFM6lTJIwTwKNv7qeEOjHuB5HI", "state"=>"6f1b64fef85166ac09054805573c69d30c1205992519cf3e"}
+Completed 500 Internal Server Error in 190ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:8:in `spotify'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:24:21 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 56ms (Views: 53.1ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:24:23 -0500
+Started GET "/auth/spotify/callback?code=AQBqDRD9Oza5vgN6tlENglN68us_77pk7YdWG0IOyDgVl0HE1Ix3kA-vUndJYK5Bfz3wCE6zL8fnFR6Qkf0C3qWwZ1bja29noHW-YIdoq8khcCgCjjzxjBNgqLq1zeJigV0Lfciy3dw-HCru5FCth4GSMM30hDTDM8nJTyD0xLryvFpmTjIjyppQaDOiDlxFr_vUSSui0G-LBlpSs2QyQ5JWFLdsuZrhoZZNF9XmDGhh1dlTTzxx9jzGTyh6dHPEr5PuvLDZHl9mn4le2srYsJMavzbPuNPkjqEvEpHrMvKpwelEUBr-IReYqsGEnpT3FTM&state=476eda718354572553e4df5e0222b1e8d600590796be1cf9" for 127.0.0.1 at 2017-12-18 15:24:24 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQBqDRD9Oza5vgN6tlENglN68us_77pk7YdWG0IOyDgVl0HE1Ix3kA-vUndJYK5Bfz3wCE6zL8fnFR6Qkf0C3qWwZ1bja29noHW-YIdoq8khcCgCjjzxjBNgqLq1zeJigV0Lfciy3dw-HCru5FCth4GSMM30hDTDM8nJTyD0xLryvFpmTjIjyppQaDOiDlxFr_vUSSui0G-LBlpSs2QyQ5JWFLdsuZrhoZZNF9XmDGhh1dlTTzxx9jzGTyh6dHPEr5PuvLDZHl9mn4le2srYsJMavzbPuNPkjqEvEpHrMvKpwelEUBr-IReYqsGEnpT3FTM", "state"=>"476eda718354572553e4df5e0222b1e8d600590796be1cf9"}
+Completed 406 Not Acceptable in 87ms
+
+
+  
+ActionController::UnknownFormat (UsersController#spotify is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:415:in `call_app!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:369:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:25:20 -0500
+Started GET "/auth/spotify/callback?code=AQBCO8KDQp7Tzw_LwbE2IrTntFpO-cAK5_ngTYuW648--UkZ8F0hCApUUZgrHtQ7ipmAOZNqoZEtf_G84L0KFyGY7UtvIvK1-vHJnT2RSp1vAj_Zsm6TtTQzbUxpMuZ_onVAhmib8jQZMPTRmauiIqE1EtaZ-lgWy6HCU5_NFCjDOGNXvcwE1Kv62-0dUTeNrHCBLnW0NbWd9zbR7epqntJxiPot1ebQF3dM2elwHVjdEgvptjuutNW_UV08PYqpsptXhL4YWFj375rQR715DrOeCK4kN6FyGZUbEzasc9dlPEyONJIsUavRttLCyQ4bfCQ&state=52b16a048cb6614ab075a535f9be5ff4a636fed8468bfc25" for 127.0.0.1 at 2017-12-18 15:25:21 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQBCO8KDQp7Tzw_LwbE2IrTntFpO-cAK5_ngTYuW648--UkZ8F0hCApUUZgrHtQ7ipmAOZNqoZEtf_G84L0KFyGY7UtvIvK1-vHJnT2RSp1vAj_Zsm6TtTQzbUxpMuZ_onVAhmib8jQZMPTRmauiIqE1EtaZ-lgWy6HCU5_NFCjDOGNXvcwE1Kv62-0dUTeNrHCBLnW0NbWd9zbR7epqntJxiPot1ebQF3dM2elwHVjdEgvptjuutNW_UV08PYqpsptXhL4YWFj375rQR715DrOeCK4kN6FyGZUbEzasc9dlPEyONJIsUavRttLCyQ4bfCQ", "state"=>"52b16a048cb6614ab075a535f9be5ff4a636fed8468bfc25"}
+Completed 500 Internal Server Error in 369ms
+
+
+  
+NameError (undefined local variable or method `home' for #<UsersController:0x007f90ff433ab8>):
+  
+app/controllers/users_controller.rb:4:in `spotify'
+Started GET "/auth/spotify/callback?code=AQBCO8KDQp7Tzw_LwbE2IrTntFpO-cAK5_ngTYuW648--UkZ8F0hCApUUZgrHtQ7ipmAOZNqoZEtf_G84L0KFyGY7UtvIvK1-vHJnT2RSp1vAj_Zsm6TtTQzbUxpMuZ_onVAhmib8jQZMPTRmauiIqE1EtaZ-lgWy6HCU5_NFCjDOGNXvcwE1Kv62-0dUTeNrHCBLnW0NbWd9zbR7epqntJxiPot1ebQF3dM2elwHVjdEgvptjuutNW_UV08PYqpsptXhL4YWFj375rQR715DrOeCK4kN6FyGZUbEzasc9dlPEyONJIsUavRttLCyQ4bfCQ&state=52b16a048cb6614ab075a535f9be5ff4a636fed8468bfc25" for 127.0.0.1 at 2017-12-18 15:25:31 -0500
+  
+OAuth2::Error (invalid_grant: Invalid authorization code
+{"error":"invalid_grant","error_description":"Invalid authorization code"}):
+  
+oauth2 (1.4.0) lib/oauth2/client.rb:119:in `request'
+oauth2 (1.4.0) lib/oauth2/client.rb:146:in `get_token'
+oauth2 (1.4.0) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:93:in `build_access_token'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:25:41 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 29.4ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:25:44 -0500
+Started GET "/auth/spotify/callback?code=AQAq-s2w43FDmGXN5lKTlmlula7ioiYOc68-rXNwOcxQyoTTy81CHnt8A1j2j4wxcqFz9Dx__51mmB555Q7-aWGoaqqszI2lh5EVTWL2Ooa5dOZ3D7KU5JyaCp1fbKSB-6EZnjD8LFOsxJVxHj8sPuPH_NBkA4Pn-m-vmOh2btKbOCfJAvehmlwKt82xR43ro0bxutbDtlx6R15TgrFdut2yLE7vXjSQGtsFj_yI9SFn57IimnTy06Pw0_Sb40HNcdxLqiX6aOaEDjrTrmTlXlA5a2muhiEyEG0mh4l2BCWXHExc0NNR0GRNFmMboI2Ow54&state=17c82e7994793955cf69a93f06be0a09e82bb328c77c4189" for 127.0.0.1 at 2017-12-18 15:25:44 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQAq-s2w43FDmGXN5lKTlmlula7ioiYOc68-rXNwOcxQyoTTy81CHnt8A1j2j4wxcqFz9Dx__51mmB555Q7-aWGoaqqszI2lh5EVTWL2Ooa5dOZ3D7KU5JyaCp1fbKSB-6EZnjD8LFOsxJVxHj8sPuPH_NBkA4Pn-m-vmOh2btKbOCfJAvehmlwKt82xR43ro0bxutbDtlx6R15TgrFdut2yLE7vXjSQGtsFj_yI9SFn57IimnTy06Pw0_Sb40HNcdxLqiX6aOaEDjrTrmTlXlA5a2muhiEyEG0mh4l2BCWXHExc0NNR0GRNFmMboI2Ow54", "state"=>"17c82e7994793955cf69a93f06be0a09e82bb328c77c4189"}
+Completed 500 Internal Server Error in 171ms
+
+
+  
+NameError (undefined local variable or method `root' for #<UsersController:0x007f90f6c5b2a8>):
+  
+app/controllers/users_controller.rb:4:in `spotify'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:27:19 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 52ms (Views: 47.6ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:27:21 -0500
+Started GET "/auth/spotify/callback?code=AQAaUZT28XDPafEfRsehcNaqFOJZ1haRAqMrGY84NK23cBD6TNo5-qw6iVKIs_R-fBK0nYEMSp-Ut2s-j1kmFbfi3Hh5bpugxDaPNrkoYSWQFd7eLjhaAAZrqR3VhFM1NgcT9PP_zZUUicp-Jv7wRGFLZMJzNQSMdFReGKpVsLlWkj2WMmr9x7d1YdP8Hc4OhZowlptWNtCeKqQIjnjRnetWIVivwzb-5cwKUZ-4r-FFiNeydCgCLOoQz-OvMniinq0K4fLRQp48HDcJYLeE1P0mDWj9HHYErtc0q0yqnLl4y_6FzW46hhgHAHt8A17Pj7c&state=27190aa437dcc40cfe5655a7b46e70eec4b9c7ce1b73cf59" for 127.0.0.1 at 2017-12-18 15:27:21 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQAaUZT28XDPafEfRsehcNaqFOJZ1haRAqMrGY84NK23cBD6TNo5-qw6iVKIs_R-fBK0nYEMSp-Ut2s-j1kmFbfi3Hh5bpugxDaPNrkoYSWQFd7eLjhaAAZrqR3VhFM1NgcT9PP_zZUUicp-Jv7wRGFLZMJzNQSMdFReGKpVsLlWkj2WMmr9x7d1YdP8Hc4OhZowlptWNtCeKqQIjnjRnetWIVivwzb-5cwKUZ-4r-FFiNeydCgCLOoQz-OvMniinq0K4fLRQp48HDcJYLeE1P0mDWj9HHYErtc0q0yqnLl4y_6FzW46hhgHAHt8A17Pj7c", "state"=>"27190aa437dcc40cfe5655a7b46e70eec4b9c7ce1b73cf59"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:27:22 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 28.8ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:27:25 -0500
+Started GET "/auth/spotify/callback?code=AQD3y90xiQ2-Y4-JbMfbmHzEMyI54IH3cn_aXb9KmaKOWp847IYWrWt25EGULb-yCZxJnvHLj3i_V9SD5qdmFxfsd1pLAdYFrjBelWRpfI-fWEgCC7RKkGQJnesd-e0KMZ9e3Ykxg4lsxgPqjP-YGfQUFla-ruRYN2T_P2C98r9pTWC-swo_Nae8oyTCWC3fmAbi9IuKsQ41yzCm_Y96vWFphDPF2osUhNDVLZSu00-XafcjXr6YijfAnXbhvnhNViaIqpSIDWK85v1kKwlIWZI94fmpKu4skDL3UBs3fWwfQ1KycCleHtFksUPoFy64OOQ&state=b2942cbf2e5d24b3ba2b628e4c22bdc5ee348dbf62e8c996" for 127.0.0.1 at 2017-12-18 15:27:25 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQD3y90xiQ2-Y4-JbMfbmHzEMyI54IH3cn_aXb9KmaKOWp847IYWrWt25EGULb-yCZxJnvHLj3i_V9SD5qdmFxfsd1pLAdYFrjBelWRpfI-fWEgCC7RKkGQJnesd-e0KMZ9e3Ykxg4lsxgPqjP-YGfQUFla-ruRYN2T_P2C98r9pTWC-swo_Nae8oyTCWC3fmAbi9IuKsQ41yzCm_Y96vWFphDPF2osUhNDVLZSu00-XafcjXr6YijfAnXbhvnhNViaIqpSIDWK85v1kKwlIWZI94fmpKu4skDL3UBs3fWwfQ1KycCleHtFksUPoFy64OOQ", "state"=>"b2942cbf2e5d24b3ba2b628e4c22bdc5ee348dbf62e8c996"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:27:26 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 25.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:39:52 -0500
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:39:58 -0500
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:40:38 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:40:40 -0500
+Started GET "/auth/spotify/callback?code=AQAnrPJPZGcUOo6a6pMGqYBwNjxaA0ngl7aVXeWGdBVQAxgpOmimawk7DEvs5bopgvdzj7CAVq1vR6gU4orY_2QUF9GRH7QK3DnicA92NCO-awC_sUdu4BcIsRwuZaZvm5sU8eq7livqD2WQJw4-W9iyxuyxbofRM89wgiv8k4DrizkOei1tygTMyEnAWSOCj4VmTe-_A4i14zpvr__riA1EcDAQ3A4i8DCVhxstbASE0NJRdTYse9VQXnMmTrTzlmuQE2WMayVgc8CmZSzZ8qiIuCk2XWYN0okWBLhcTesITf_HQFIRp6QzcVd3TeqJ2ss&state=3524f2416351dee45f34acfb1591d71bfe1bbe607e6214b4" for 127.0.0.1 at 2017-12-18 15:40:41 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQAnrPJPZGcUOo6a6pMGqYBwNjxaA0ngl7aVXeWGdBVQAxgpOmimawk7DEvs5bopgvdzj7CAVq1vR6gU4orY_2QUF9GRH7QK3DnicA92NCO-awC_sUdu4BcIsRwuZaZvm5sU8eq7livqD2WQJw4-W9iyxuyxbofRM89wgiv8k4DrizkOei1tygTMyEnAWSOCj4VmTe-_A4i14zpvr__riA1EcDAQ3A4i8DCVhxstbASE0NJRdTYse9VQXnMmTrTzlmuQE2WMayVgc8CmZSzZ8qiIuCk2XWYN0okWBLhcTesITf_HQFIRp6QzcVd3TeqJ2ss", "state"=>"3524f2416351dee45f34acfb1591d71bfe1bbe607e6214b4"}
+Completed 500 Internal Server Error in 182ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:5:in `spotify'
+Started GET "/auth/spotify/callback?code=AQAnrPJPZGcUOo6a6pMGqYBwNjxaA0ngl7aVXeWGdBVQAxgpOmimawk7DEvs5bopgvdzj7CAVq1vR6gU4orY_2QUF9GRH7QK3DnicA92NCO-awC_sUdu4BcIsRwuZaZvm5sU8eq7livqD2WQJw4-W9iyxuyxbofRM89wgiv8k4DrizkOei1tygTMyEnAWSOCj4VmTe-_A4i14zpvr__riA1EcDAQ3A4i8DCVhxstbASE0NJRdTYse9VQXnMmTrTzlmuQE2WMayVgc8CmZSzZ8qiIuCk2XWYN0okWBLhcTesITf_HQFIRp6QzcVd3TeqJ2ss&state=3524f2416351dee45f34acfb1591d71bfe1bbe607e6214b4" for 127.0.0.1 at 2017-12-18 15:40:50 -0500
+  
+OAuth2::Error (invalid_grant: Invalid authorization code
+{"error":"invalid_grant","error_description":"Invalid authorization code"}):
+  
+oauth2 (1.4.0) lib/oauth2/client.rb:119:in `request'
+oauth2 (1.4.0) lib/oauth2/client.rb:146:in `get_token'
+oauth2 (1.4.0) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:93:in `build_access_token'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:40:56 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:40:58 -0500
+Started GET "/auth/spotify/callback?code=AQAZG6fTsQTSsERW5D7Kftb_KhdXtCrlfVIHUiJPHPny17EqwfAWSZTKJ_qmRQCLn34EFM3O19bi_RXdK__UzHVaMhe9R5GZuGq695KJDEUV_tlszQhL_wpk2hCxih5DblgdERfqJDCHPL1Tld4ZS09CFFcz0I_ltXcVG0sEoLM0ZE9E62jmgtqd13_xQ8v6vN-TaV_9E5HqE3RxDEdcFou9J7olwq8SPdfPPZSCEJOx4H1X0oOqX2UOO_sWv4xTSSMq52JippJ9CJomtzbFW8H35bpXpr-Yj3nuH2ycSy7DYfASjt3PmGkdC7hd9Rjund4&state=7ff80a03c0d6dacaabc6244aab3d624997e6bb70a46b8f6d" for 127.0.0.1 at 2017-12-18 15:40:58 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQAZG6fTsQTSsERW5D7Kftb_KhdXtCrlfVIHUiJPHPny17EqwfAWSZTKJ_qmRQCLn34EFM3O19bi_RXdK__UzHVaMhe9R5GZuGq695KJDEUV_tlszQhL_wpk2hCxih5DblgdERfqJDCHPL1Tld4ZS09CFFcz0I_ltXcVG0sEoLM0ZE9E62jmgtqd13_xQ8v6vN-TaV_9E5HqE3RxDEdcFou9J7olwq8SPdfPPZSCEJOx4H1X0oOqX2UOO_sWv4xTSSMq52JippJ9CJomtzbFW8H35bpXpr-Yj3nuH2ycSy7DYfASjt3PmGkdC7hd9Rjund4", "state"=>"7ff80a03c0d6dacaabc6244aab3d624997e6bb70a46b8f6d"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:40:58 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:41:36 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:41:38 -0500
+Started GET "/auth/spotify/callback?code=AQA6myUAvGJHRaFDJLl-gYgfhTP4681eeGxbg_A7sN1meJACkOkN3rkmH-OJbkwOcBH621-SSkA3Fn7zVQFUjKBQY7DC_JQ6rAjo2ELXvjM2L2bnnZCT7VMbjtTEt9bwmDe_EkVq0YfBazKjVjMJ9VeIH2vxLM3HmNrm1DCB3Rtj4bR8tkY-aSScbiLEKgkGyORNM1G-4LyQZlaUpJDX7xAQa24YlDqekMRXjrGR7s3zNFs8bbGZHzW3soZfBsk9CeI6Uv5YS1SaDi4Z6TFJbp9oWhCnsvEmFyWInN2okRdHwUMAjhdzPEeBcGiHtMq1pwY&state=44b536ff671d7a83b14a5bce1b4a69ff58eebfab3e6bdd23" for 127.0.0.1 at 2017-12-18 15:41:39 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQA6myUAvGJHRaFDJLl-gYgfhTP4681eeGxbg_A7sN1meJACkOkN3rkmH-OJbkwOcBH621-SSkA3Fn7zVQFUjKBQY7DC_JQ6rAjo2ELXvjM2L2bnnZCT7VMbjtTEt9bwmDe_EkVq0YfBazKjVjMJ9VeIH2vxLM3HmNrm1DCB3Rtj4bR8tkY-aSScbiLEKgkGyORNM1G-4LyQZlaUpJDX7xAQa24YlDqekMRXjrGR7s3zNFs8bbGZHzW3soZfBsk9CeI6Uv5YS1SaDi4Z6TFJbp9oWhCnsvEmFyWInN2okRdHwUMAjhdzPEeBcGiHtMq1pwY", "state"=>"44b536ff671d7a83b14a5bce1b4a69ff58eebfab3e6bdd23"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:41:39 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 138ms (Views: 135.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:41:47 -0500
+Started GET "/auth/spotify/callback?code=AQCfPUD9sLBt8DEwpcz8AeULx3vd-5hF2Zc5i8jv0jhY9Mi9U-4cWOa7XM-mmUeDTeEQcWhRIh5cmbW-12ZkHl2395cRgrzuvPbFhmCkKmtWYZfyoryX482fRvPoA-ZKq74NBF5IccmYHt-6-DGgCGZicwIGOma86pT-lAmURh1KDWDo5kVV3feN21kp6mBWuW9P-RC4_oZkakDuBxVn-p_cL-cO8zWOiVWyN9GinJdRcOdfMta4cG0wDZLtxeWKhPQTHhyKAvpXgpyIFUTvWSd-Bhj3ODnvnf1bZidVkIu3-c-7uNmuO2cnTBNrUHAUOhk&state=ebc099905ddafe493cd6f774e2679a29a82f16552def2f1c" for 127.0.0.1 at 2017-12-18 15:41:47 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQCfPUD9sLBt8DEwpcz8AeULx3vd-5hF2Zc5i8jv0jhY9Mi9U-4cWOa7XM-mmUeDTeEQcWhRIh5cmbW-12ZkHl2395cRgrzuvPbFhmCkKmtWYZfyoryX482fRvPoA-ZKq74NBF5IccmYHt-6-DGgCGZicwIGOma86pT-lAmURh1KDWDo5kVV3feN21kp6mBWuW9P-RC4_oZkakDuBxVn-p_cL-cO8zWOiVWyN9GinJdRcOdfMta4cG0wDZLtxeWKhPQTHhyKAvpXgpyIFUTvWSd-Bhj3ODnvnf1bZidVkIu3-c-7uNmuO2cnTBNrUHAUOhk", "state"=>"ebc099905ddafe493cd6f774e2679a29a82f16552def2f1c"}
+Completed 406 Not Acceptable in 81ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (UsersController#spotify is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:415:in `call_app!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:369:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.7.1) lib/omniauth/strategy.rb:236:in `callback_call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:188:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:41:55 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-18 15:41:57 -0500
+Started GET "/auth/spotify/callback?code=AQDqJGeI6y8CRfPbpSbF6Pki1eDvCumrDd5-P2f2A9REFpmCB1VUZXlqHqwDgpV6T1duc8bPON2qvAeGeZt5ur_ngJvkfYlCjbYfnhMFSCd5ohJB8SabXivxsc75gegCIWZrwTpkJsyXug7a8XpxIGDRtKpcz-Ti5g_xTw3YFIc8-CnxPzWmssIxd-dq6szGnH5NwWdpb4uOgDpF2_VaBVJdiRqbHuKtiggKvlsxJ9rLbEbNC7rKmA3MdsBsAbH9sZku-ac7L5_0leh8x2A-nrrGRUuixSd87SoXFWdTgke3AZ1S3RbrVsp6OyZd8SxIjeI&state=8270ef5dcebc475a04baaec420da279424121b46281df9be" for 127.0.0.1 at 2017-12-18 15:41:58 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQDqJGeI6y8CRfPbpSbF6Pki1eDvCumrDd5-P2f2A9REFpmCB1VUZXlqHqwDgpV6T1duc8bPON2qvAeGeZt5ur_ngJvkfYlCjbYfnhMFSCd5ohJB8SabXivxsc75gegCIWZrwTpkJsyXug7a8XpxIGDRtKpcz-Ti5g_xTw3YFIc8-CnxPzWmssIxd-dq6szGnH5NwWdpb4uOgDpF2_VaBVJdiRqbHuKtiggKvlsxJ9rLbEbNC7rKmA3MdsBsAbH9sZku-ac7L5_0leh8x2A-nrrGRUuixSd87SoXFWdTgke3AZ1S3RbrVsp6OyZd8SxIjeI", "state"=>"8270ef5dcebc475a04baaec420da279424121b46281df9be"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 15:41:59 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
