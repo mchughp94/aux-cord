@@ -1473,3 +1473,623 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-12-18 16:41:37 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 4690ms (Views: 4349.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 16:42:18 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 35.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-18 16:43:34 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 31.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 09:29:04 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 7624ms (Views: 7193.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 09:30:06 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 27.7ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-19 09:31:55 -0500
+Started GET "/auth/spotify/callback?code=AQD5jNawb6nSLeqDDZoxBLRzl3wc_GQs7JxaxjihCQtXoy9xcwAz2Y3nGvNrRDwUcb-g5m0gJdjliwKX4tDHO6n-1xw6vW6L4w54QrYGkDorz5A5s5Vj4AVlANYzMcRkGXPaWc5kw-031iWu4JAdtRwOWgbujHqxfnyQ7yyNopWrnuUhrHkixppCThvfTwGJEstHEXspS4_RYLTkqp0h79MM7MfNqNwvKX8Ku0fUR06QyD0OfziFaMD0Xwq_YWeJOZnW7_YUFumYQ2KIPK2W72CoDHrDks00AWJ9GDY95ResZRLZ8cRq7vpBE9HTBmt8sbg&state=183ddea37e1be31946e799b7a7633f6bd5a1526c1d739497" for 127.0.0.1 at 2017-12-19 09:31:56 -0500
+Processing by UsersController#spotify as HTML
+  Parameters: {"code"=>"AQD5jNawb6nSLeqDDZoxBLRzl3wc_GQs7JxaxjihCQtXoy9xcwAz2Y3nGvNrRDwUcb-g5m0gJdjliwKX4tDHO6n-1xw6vW6L4w54QrYGkDorz5A5s5Vj4AVlANYzMcRkGXPaWc5kw-031iWu4JAdtRwOWgbujHqxfnyQ7yyNopWrnuUhrHkixppCThvfTwGJEstHEXspS4_RYLTkqp0h79MM7MfNqNwvKX8Ku0fUR06QyD0OfziFaMD0Xwq_YWeJOZnW7_YUFumYQ2KIPK2W72CoDHrDks00AWJ9GDY95ResZRLZ8cRq7vpBE9HTBmt8sbg", "state"=>"183ddea37e1be31946e799b7a7633f6bd5a1526c1d739497"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 19ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 09:31:56 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 51ms (Views: 44.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 09:34:47 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 65ms (Views: 60.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 09:37:47 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 2176ms (Views: 2170.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 09:37:50 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 40.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 09:38:15 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1417ms (Views: 1411.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:15:06 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 1982ms (Views: 1971.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:15:18 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1690ms (Views: 1686.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:15:40 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1529ms (Views: 1524.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:15:52 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1500ms (Views: 1497.4ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2017-12-19 10:16:34 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2017-12-19 10:16:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:16:41 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 30.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:19:20 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 181ms (Views: 177.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:19:42 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1701ms (Views: 1696.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:20:02 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1198ms (Views: 1195.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:21:11 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 118ms (Views: 112.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-12-19 10:21:26 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 54ms (Views: 48.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:21:34 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 52.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:21:51 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 4605ms (Views: 4275.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:29:07 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 1853ms (Views: 1841.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:32:27 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 1706ms (Views: 1699.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:33:12 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1134ms (Views: 1130.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:33:25 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 26.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:33:52 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 42.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:36:23 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 1817ms (Views: 1811.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:38:36 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 1814ms (Views: 1806.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:40:22 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1384ms (Views: 1379.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:41:16 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1464ms (Views: 1461.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:41:49 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 30.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:41:59 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1727ms (Views: 1722.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:42:55 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1500ms (Views: 1497.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:43:12 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1806ms (Views: 1802.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:45:03 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 115ms (Views: 104.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:45:57 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 2114ms (Views: 2101.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 10:46:13 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1936ms (Views: 1932.4ms)
+
+
+  [1m[35m (98.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (34.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (6.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7752414663905782500)[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20171219160829)
+  [1m[35m (5.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (37.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "provider" character varying, "uid" character varying, "name" character varying, "oauth_token" character varying, "oauth_expires_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (3.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171219160829"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-19 16:08:48.894189"], ["updated_at", "2017-12-19 16:08:48.894189"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7752414663905782500)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:38:12 -0500
+  [1m[35m (7.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 5099ms (Views: 5095.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-19 11:38:23 -0500
+Started GET "/auth/spotify/callback?code=AQCzFIn96NjH-TbOKZkO3Wo_KMqJn2KHVWVuZNxTvC55XqaWBHlkVt0yDnZLh0wqfcFuZ_o0JydUmcQl398NSQA7LQpMrdcaVCFVscm0NdMWWAFK9MOjDTBwEEphYX-4BjUAWyX2ejTh-kqF_8-0uFta9zIat4XraHbIu5ta1XDw9cwV57rJGhmBeqgsYac-JvlowiQWRq5k2AbolRD8Quy2ZGD4EYLvDIVq0TDL1KmjDgmm1_P0IH2erytHyKMjABC8Fxd_QMqLBpbM15b66u67Yi_60UGCkkRQhUNK3XkvQTWSQq3cBHGgTQ3wtX6Y8Zs&state=be246ad5c159b0fe54da73bef6a7e067e5d140ab5add2f22" for 127.0.0.1 at 2017-12-19 11:38:23 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCzFIn96NjH-TbOKZkO3Wo_KMqJn2KHVWVuZNxTvC55XqaWBHlkVt0yDnZLh0wqfcFuZ_o0JydUmcQl398NSQA7LQpMrdcaVCFVscm0NdMWWAFK9MOjDTBwEEphYX-4BjUAWyX2ejTh-kqF_8-0uFta9zIat4XraHbIu5ta1XDw9cwV57rJGhmBeqgsYac-JvlowiQWRq5k2AbolRD8Quy2ZGD4EYLvDIVq0TDL1KmjDgmm1_P0IH2erytHyKMjABC8Fxd_QMqLBpbM15b66u67Yi_60UGCkkRQhUNK3XkvQTWSQq3cBHGgTQ3wtX6Y8Zs", "state"=>"be246ad5c159b0fe54da73bef6a7e067e5d140ab5add2f22", "provider"=>"spotify"}
+Completed 500 Internal Server Error in 196ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `env' for #<SessionsController:0x007f9369e94bd0>):
+  
+app/controllers/sessions_controller.rb:3:in `create'
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-19 11:38:42 -0500
+Started GET "/auth/spotify/callback?code=AQBLghtibHag3Ad8wrE7Zg_ct23MedM4MXMW248U--5E2fbLRlORdnct7WzW9Zp17JLaiylOpfFB97wRgN55kmFBAXX__UFp4hjIPeF2EzNbdHSsSuO-G39LHvNxMSzL9RHYT1ZY656lyz804tC-bbQkuW3qbUPjutusXbLnY3uUbGR_Qq_kUFZzRZjayUPcTHjXBW-k_WR_PiowK6yYxayTwnzmb01-r-qQnE2_KpHZU8Biv-wKgQJP2wKSJPAGKJE0ZvEZK8yn2yM2c8gWCrVeVxpIuGECo-9KCRpTScl_5_R6IbuNrtH2iODzbRwf37s&state=561baa9d66166588e1a34d0677a790bfab0bd7555487b3a1" for 127.0.0.1 at 2017-12-19 11:38:42 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBLghtibHag3Ad8wrE7Zg_ct23MedM4MXMW248U--5E2fbLRlORdnct7WzW9Zp17JLaiylOpfFB97wRgN55kmFBAXX__UFp4hjIPeF2EzNbdHSsSuO-G39LHvNxMSzL9RHYT1ZY656lyz804tC-bbQkuW3qbUPjutusXbLnY3uUbGR_Qq_kUFZzRZjayUPcTHjXBW-k_WR_PiowK6yYxayTwnzmb01-r-qQnE2_KpHZU8Biv-wKgQJP2wKSJPAGKJE0ZvEZK8yn2yM2c8gWCrVeVxpIuGECo-9KCRpTScl_5_R6IbuNrtH2iODzbRwf37s", "state"=>"561baa9d66166588e1a34d0677a790bfab0bd7555487b3a1", "provider"=>"spotify"}
+Completed 500 Internal Server Error in 168ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `env' for #<SessionsController:0x007f936e645448>):
+  
+app/controllers/sessions_controller.rb:3:in `create'
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:39:48 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 74ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/show" for 127.0.0.1 at 2017-12-19 11:39:55 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home/show"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/show" for 127.0.0.1 at 2017-12-19 11:40:00 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/show"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2017-12-19 11:40:08 -0500
+  
+ActionController::RoutingError (uninitialized constant HomesController):
+  
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+omniauth (1.7.1) lib/omniauth/strategy.rb:190:in `call!'
+omniauth (1.7.1) lib/omniauth/strategy.rb:168:in `call'
+omniauth (1.7.1) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:40:13 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 62ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:40:44 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 84ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:40:56 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:41:02 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-19 11:42:18 -0500
+Started GET "/auth/spotify/callback?code=AQB6wTOnBaHyVi4qNTCwNfc5QiR64If1XsImTy0-GTfhVRwZAN-Ubmg1oLenKk_kcgJEIVqHCN4NwrUfMeJeQf5x2AdcjlX1B4tYQe1jJ34XzyHlkmcEBLHPm1KdkJ7w4mDBnGvBEmN3PchsFSLLv8rrZAbUg8An5SViQySeiP0riHkvDDowRmOSRAzPmW1WXKgUfao5FNj9LX9CbxQoKaQX6KFQOd9D8Sre0pAouKl5gbWzW8bSReJ4JU8e_EJmOQztkcYYxeKPudH5HFoUNuPt9pZg1E5rrx-AbBCrR3TWAAkI4SiaFt6uufSPIIsjvoc&state=9fbb8ef334e73d3a36e93efd45477ebd75c4e94ba1398388" for 127.0.0.1 at 2017-12-19 11:42:18 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQB6wTOnBaHyVi4qNTCwNfc5QiR64If1XsImTy0-GTfhVRwZAN-Ubmg1oLenKk_kcgJEIVqHCN4NwrUfMeJeQf5x2AdcjlX1B4tYQe1jJ34XzyHlkmcEBLHPm1KdkJ7w4mDBnGvBEmN3PchsFSLLv8rrZAbUg8An5SViQySeiP0riHkvDDowRmOSRAzPmW1WXKgUfao5FNj9LX9CbxQoKaQX6KFQOd9D8Sre0pAouKl5gbWzW8bSReJ4JU8e_EJmOQztkcYYxeKPudH5HFoUNuPt9pZg1E5rrx-AbBCrR3TWAAkI4SiaFt6uufSPIIsjvoc", "state"=>"9fbb8ef334e73d3a36e93efd45477ebd75c4e94ba1398388", "provider"=>"spotify"}
+Completed 500 Internal Server Error in 195ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `env' for #<SessionsController:0x007f937130bd38>):
+  
+app/controllers/sessions_controller.rb:3:in `create'
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:43:13 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 57ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-19 11:43:15 -0500
+Started GET "/auth/spotify/callback?code=AQDoa3m8PZR6s62IBGS6VsP-LguvP21rMEQ-HaJTu_ty8tZUt5sBTUMTT5PFg_HYkpx6HfRcJOD6kNiAsd1JilwD4wVDLmJHLAwtYIw7R-e2dVKAWL-dF7zwMw8DvsPrFQx1v5Nryke09pf5DqjvnBXwM2ZX_QxL9HZLQ_9-0A3wAtejJU6GJ627cPd0_9KOhKHQheOS5ccxbgqdwN1JDf5y7ayLCBEGQXIeccxUpwB8nsuAryB7bSgcPH4HXpyrnm332NoqlqqeSuR3ddx84ptJjZ7ATDrbfCYitQU7JT5KNNIueifb8LzAUDdZJW8Wits&state=47d3eb4d330147e61d7d5b4f76399783e082cd1770bbfe74" for 127.0.0.1 at 2017-12-19 11:43:15 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDoa3m8PZR6s62IBGS6VsP-LguvP21rMEQ-HaJTu_ty8tZUt5sBTUMTT5PFg_HYkpx6HfRcJOD6kNiAsd1JilwD4wVDLmJHLAwtYIw7R-e2dVKAWL-dF7zwMw8DvsPrFQx1v5Nryke09pf5DqjvnBXwM2ZX_QxL9HZLQ_9-0A3wAtejJU6GJ627cPd0_9KOhKHQheOS5ccxbgqdwN1JDf5y7ayLCBEGQXIeccxUpwB8nsuAryB7bSgcPH4HXpyrnm332NoqlqqeSuR3ddx84ptJjZ7ATDrbfCYitQU7JT5KNNIueifb8LzAUDdZJW8Wits", "state"=>"47d3eb4d330147e61d7d5b4f76399783e082cd1770bbfe74", "provider"=>"spotify"}
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "spotify"], ["uid", "1273423731"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[32mINSERT INTO "users" ("provider", "uid", "name", "oauth_token", "oauth_expires_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["provider", "spotify"], ["uid", "1273423731"], ["name", "thatguy7123@yahoo.com"], ["oauth_token", "BQDcESNsCmCq4tRx28e0tiOC0FG_QeTfR-KYeaxpEvQ7K1Skd9W-THULniamclF0imVvatcQgC6LrfWa-lL2xQOl4-ahkTOznHovKJ9aAqUCSYMURehZLf4YeGNKZ9qXsmn0HezVmzRE5J9gMj5FheUkoRCH-MRXNii7KV7uN2kkOLM4IYt6pRo3XcBrdd0"], ["oauth_expires_at", "2017-12-19 17:43:15"], ["created_at", "2017-12-19 16:43:16.085620"], ["updated_at", "2017-12-19 16:43:16.085620"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 66ms (ActiveRecord: 32.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:43:16 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 118ms (Views: 89.6ms | ActiveRecord: 26.7ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2017-12-19 11:45:23 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:45:23 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-19 11:45:25 -0500
+Started GET "/auth/spotify/callback?code=AQBWWQLN9ztRENcN1LvAn3Y_12dCSMZnAk4hegqD9WPIQZ0t0j-I9wCjKWSY1TU059yRjcb8pyptWWRJ-tJ5a-4_0_WthHPqOO3LUnd-rDHidksoOMyrnAsTjuz6k-cj5YvQbHAHPaL9m0vPsFCoRoKSU8Q345NspATKkZLzR58CXgeQP_VUljH_OnYesGCDGKyhgxI79CV4HEiCSrZLjY_w9EemYoMYX473AJy4D5yDo8G7SeQUJJeTkhfGtfzLw-w08htWzuQR-71VnBhnXk4Ksh-1MxxrGknEOLloba4H2afqkp338C-ur27YRrNtORQ&state=e290e3888742a085bec502dd8c77a8cd1048e8da81ff9bce" for 127.0.0.1 at 2017-12-19 11:45:26 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBWWQLN9ztRENcN1LvAn3Y_12dCSMZnAk4hegqD9WPIQZ0t0j-I9wCjKWSY1TU059yRjcb8pyptWWRJ-tJ5a-4_0_WthHPqOO3LUnd-rDHidksoOMyrnAsTjuz6k-cj5YvQbHAHPaL9m0vPsFCoRoKSU8Q345NspATKkZLzR58CXgeQP_VUljH_OnYesGCDGKyhgxI79CV4HEiCSrZLjY_w9EemYoMYX473AJy4D5yDo8G7SeQUJJeTkhfGtfzLw-w08htWzuQR-71VnBhnXk4Ksh-1MxxrGknEOLloba4H2afqkp338C-ur27YRrNtORQ", "state"=>"e290e3888742a085bec502dd8c77a8cd1048e8da81ff9bce", "provider"=>"spotify"}
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "spotify"], ["uid", "1273423731"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[33mUPDATE "users" SET "oauth_token" = $1, "oauth_expires_at" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["oauth_token", "BQB3yVk61annDpxsk4-XrANCAcdIjik0_H7bsUpPLvyi1vxTKRXAmDNdPecFKDEMPPYxdxNVeaGK-L6rBLfXmDKKRRTgHUDJJtjiUMwRMHUUin6Z0hixXMwA2HKx21t70b3jGqeneo1iK1pw55eRKNOir9g8_i7NFmnVrs0JjtRcEESXH3w2IX2u8ah1hVA"], ["oauth_expires_at", "2017-12-19 17:45:26"], ["updated_at", "2017-12-19 16:45:26.641048"], ["id", 1]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 53ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:45:26 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2017-12-19 11:46:09 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-19 11:46:09 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 65ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+

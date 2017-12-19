@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  get 'home/index'
+  get 'auth/:provider/callback', to: 'sessions#create'
+  get 'auth/failure', to: redirect('/')
+  get 'signout', to: 'sessions#destroy', as: 'signout'
 
-  root 'home#index'
+  resources :sessions, only: [:create, :destroy]
+  resource :home, only: [:show]
 
-get '/auth/spotify/callback', to: 'users#spotify'
+  root to: "home#show"
 end
