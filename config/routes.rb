@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   resources :sessions, only: [:create, :destroy]
   resource :home, only: [:show]
+  resource :playlists, only: [:show] do
+    resources :myplaylist, only: [:show]
+  end
 
   root to: "home#show"
 end

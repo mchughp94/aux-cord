@@ -1,10 +1,14 @@
 import React from 'react';
-import { Router, Route } from 'react-router';
+import { Router, Route, browserHistory } from 'react-router';
 import NavBar from './NavBar'
+import PlaylistsShowContainer from '../containers/PlaylistsShowContainer'
 const App = props => {
   return(
   <div>
-    <Route path= '/home' component={NavBar}/>
+    <Router history={browserHistory}>
+      <Route path= '/' component={NavBar}/>
+      <Route path= '/playlist' component={PlaylistsShowContainer}/>
+    </Router>
   </div>
 
     );
