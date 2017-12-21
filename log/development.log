@@ -7694,3 +7694,471 @@ Processing by MyplaylistController#show as
 Completed 200 OK in 6012ms (Views: 5296.0ms | ActiveRecord: 20.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-12-21 11:58:45 -0500
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#show as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/playlists
+Completed 302 Found in 95ms (ActiveRecord: 21.6ms)
+
+
+Started GET "/playlists" for 127.0.0.1 at 2017-12-21 11:58:46 -0500
+Processing by PlaylistsController#show as HTML
+  Rendering playlists/show.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered playlists/show.html.erb within layouts/application (779.6ms)
+Completed 200 OK in 6008ms (Views: 5993.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2017-12-21 11:58:56 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 11:58:56 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 61ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/playlists" for 127.0.0.1 at 2017-12-21 11:59:04 -0500
+Processing by PlaylistsController#show as HTML
+  Rendering playlists/show.html.erb within layouts/application
+  Rendered playlists/show.html.erb within layouts/application (201.8ms)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `uid' for nil:NilClass):
+    1: <h4>
+    2:   <ul>
+    3:   <% show_playlists.each do |playlist| %>
+    4:   <%= link_to playlist.name, 'playlists/myplaylist/{playlist.id}' %>
+    5:   <% end %>
+    6: </ul>
+  
+app/controllers/application_controller.rb:13:in `show_playlists'
+app/views/playlists/show.html.erb:3:in `_app_views_playlists_show_html_erb___4591417173097258348_70286941280780'
+Started GET "/" for 127.0.0.1 at 2017-12-21 12:09:08 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 316ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: skeleton/loader.
+Load paths:
+  /Users/paul/final-project/aux-cord/app/assets/config
+  /Users/paul/final-project/aux-cord/app/assets/images
+  /Users/paul/final-project/aux-cord/app/assets/javascripts
+  /Users/paul/final-project/aux-cord/app/assets/stylesheets
+  /Users/paul/.gem/ruby/2.3.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/paul/.gem/ruby/2.3.3/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/paul/.gem/ruby/2.3.3/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/paul/final-project/aux-cord/node_modules):
+    2: <html>
+    3:   <head>
+    4:     <title>AuxCord</title>
+    5:     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:       <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:       <%= csrf_meta_tags %>
+    8:     </head>
+  
+app/assets/stylesheets/skeleton.scss:1
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1268465231034810729_70287001345640'
+Started GET "/" for 127.0.0.1 at 2017-12-21 12:09:21 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1193ms (Views: 1180.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 12:11:28 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 314ms (Views: 304.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 12:11:54 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 103ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 12:12:40 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 72ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:04:50 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 108ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:22:12 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 2180ms (Views: 2166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:22:19 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:22:39 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 68ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:24:52 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 189ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:25:28 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 93ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:25:47 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 114ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:25:54 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 170ms (Views: 164.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:25:59 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 138ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:27:42 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 93ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:27:50 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 170ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:29:42 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 132ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:36:04 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 258ms (Views: 242.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:43:01 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 445ms (Views: 436.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:43:28 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 187ms (Views: 184.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:44:48 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 143ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:45:43 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 263ms (Views: 251.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:46:49 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 272ms (Views: 261.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:54:23 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 232ms (Views: 222.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:56:09 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 243ms (Views: 231.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:57:13 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 90ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 13:57:23 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 158ms (Views: 155.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:02:59 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 153ms (Views: 150.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:03:20 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 289ms (Views: 285.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:03:44 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 182ms (Views: 179.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:05:03 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 465ms (Views: 414.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:05:15 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 78ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:05:35 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 170ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:06:16 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 318ms (Views: 305.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:10:31 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 293ms (Views: 290.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:10:53 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 113ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:11:05 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 221ms (Views: 218.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:11:09 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 191ms (Views: 188.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:11:31 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 124ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:11:42 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 129ms (Views: 125.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:11:58 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 105ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:12:22 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 152ms (Views: 148.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:17:17 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 188ms (Views: 183.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:17:56 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 174ms (Views: 170.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:18:04 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 119ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:18:13 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 134ms (Views: 130.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:18:19 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 160ms (Views: 157.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:18:34 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 154ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:18:41 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 162ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:18:58 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 177ms (Views: 174.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:19:07 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 151ms (Views: 147.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:19:14 -0500
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 104ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for 127.0.0.1 at 2017-12-21 14:21:29 -0500
+Started GET "/auth/spotify/callback?code=AQCRdWpUXuPRj5Z9G-IeyUK_8lrxyyWPTvnJVvyRpcOntvjaODlW2mtUpUWBSODFNOoszGTOVLC4CWh2F_5p5zChq71XeYaxFhbRGcT-tB-333mWSglM8jI9tVsKj8eOlnFq3KRgdXy00nUufLlLY66kj-PxabHB6UE3Sb_ll0nVvb6B9aLFO3YgPZSYG7ppPcHGKJtKBSP5n6eI5u6qx3Bx2vhOJ1y7JqTVMWF1IPxFt88mFEAmj3uDAuzX4ffapUjTNsx6_-S8rfbX83WWX6BViJHJeFXlD4oQ154GN-SPI6ibq8RGBACVcU3QoAR3p4Y&state=ce9986e77ca23fdfa4273051ccc643579f6a5b0373a077ee" for 127.0.0.1 at 2017-12-21 14:21:30 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCRdWpUXuPRj5Z9G-IeyUK_8lrxyyWPTvnJVvyRpcOntvjaODlW2mtUpUWBSODFNOoszGTOVLC4CWh2F_5p5zChq71XeYaxFhbRGcT-tB-333mWSglM8jI9tVsKj8eOlnFq3KRgdXy00nUufLlLY66kj-PxabHB6UE3Sb_ll0nVvb6B9aLFO3YgPZSYG7ppPcHGKJtKBSP5n6eI5u6qx3Bx2vhOJ1y7JqTVMWF1IPxFt88mFEAmj3uDAuzX4ffapUjTNsx6_-S8rfbX83WWX6BViJHJeFXlD4oQ154GN-SPI6ibq8RGBACVcU3QoAR3p4Y", "state"=>"ce9986e77ca23fdfa4273051ccc643579f6a5b0373a077ee", "provider"=>"spotify"}
+  [1m[36mUser Load (126.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "spotify"], ["uid", "1273423731"], ["LIMIT", 1]]
+  [1m[35m (26.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (61.2ms)[0m  [1m[33mUPDATE "users" SET "oauth_token" = $1, "oauth_expires_at" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["oauth_token", "BQDi-RCatLlYxh2LukY4atPlAPC_-mveSzuCGGEWcdK6KpPapupBZ3uE41uvUnIchJ4adYMWd5GGCLbrvg-rd3h2dyKutFE8bfNbaAdfrpjrDV36bOuhkHDETa3hiR5Gg_0ffhz5o0JBW7E8QYCCRYuIVSyhZ0XX3JZOky20cpvHCnS4zLf7lVlo67JQq24"], ["oauth_expires_at", "2017-12-21 20:21:30"], ["updated_at", "2017-12-21 19:21:31.074645"], ["id", 1]]
+  [1m[35m (30.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 367ms (ActiveRecord: 244.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:21:31 -0500
+Processing by HomeController#show as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/playlists
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/playlists" for 127.0.0.1 at 2017-12-21 14:21:31 -0500
+Processing by PlaylistsController#show as HTML
+  Rendering playlists/show.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered playlists/show.html.erb within layouts/application (623.7ms)
+Completed 200 OK in 679ms (Views: 674.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/playlists/myplaylist/%7Bplaylist.id%7D" for 127.0.0.1 at 2017-12-21 14:21:40 -0500
+Processing by MyplaylistController#show as 
+  Parameters: {"id"=>"{playlist"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering myplaylist/show.html.erb within layouts/application
+  Rendered myplaylist/show.html.erb within layouts/application (5299.1ms)
+Completed 200 OK in 5999ms (Views: 5372.9ms | ActiveRecord: 0.6ms)
+
+
