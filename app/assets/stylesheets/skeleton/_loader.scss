@@ -1,0 +1,5 @@
+@import "config";
+@import "../../../node_modules/normalize-scss/sass/normalize/import-now";
+@import "../../../node_modules/skeleton-sass-official/skeleton/themes/fresh/vars";
+@import "../../../node_modules/skeleton-sass-official/skeleton/themes/fresh/include_components"; // renamed from base in version 3.1
+@import "../../../node_modules/skeleton-sass-official/skeleton/themes/fresh/grid"; // renamed from skeleton in version 3.1

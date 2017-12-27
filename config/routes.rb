@@ -8,6 +8,13 @@ Rails.application.routes.draw do
   resource :playlists, only: [:show] do
     resources :myplaylist, only: [:show]
   end
+  namespace :api do
+    namespace :v1 do
+      resource :playlists, only: [:index, :show] do
+        resources :myplaylist, only: [:show]
+      end
+    end
+  end
 
   root to: "home#show"
 end

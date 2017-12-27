@@ -1,5 +1,7 @@
-<% show_songs.each do |song_array| %>
-<% song_array.each do |song| %>
-<%= song.name %>
+<% @playlist.tracks.each do |track| %>
+<%= track.name %>
+<%= track.album.name %>
+<% track.artists.each do |artist| %>
+<%= artist.name %>
 <% end %>
 <% end %>

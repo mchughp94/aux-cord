@@ -7,7 +7,7 @@ const App = props => {
   <div>
     <Router history={browserHistory}>
       <Route path= '/' component={NavBar}/>
-      <Route path= '/playlist' component={PlaylistsShowContainer}/>
+      <Route path= '/playlists' component={PlaylistsShowContainer}/>
     </Router>
   </div>
 
