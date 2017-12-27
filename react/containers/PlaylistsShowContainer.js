@@ -11,8 +11,7 @@ class PlaylistsShowContainer extends React.Component {
   }
 
   getPlaylists() {
-
-    fetch('https://api.spotify.com/v1/users/{user_id}/playlists')
+    fetch('/api/v1/playlists')
     .then(response => {
       if (response.ok) {
         return response;
@@ -24,6 +23,7 @@ class PlaylistsShowContainer extends React.Component {
     })
     .then(response => response.json())
     .then(body => {
+      debugger
       this.setState({
        playlists: body
       })
@@ -33,20 +33,25 @@ class PlaylistsShowContainer extends React.Component {
 
 
 componentDidMount(){
-  this.getPlaylists
+  this.getPlaylists()
 }
 
 
 render() {
   let playlists = this.state.playlists.map(playlist => {
-  return(
-    <div>
-      <PlaylistTile
-        name={this.state.playlist.name} />
-    </div>
-);
-})
-}
+    return(
+      <div>
+        <PlaylistTile
+          name={this.state.playlist.name} />
+        </div>
+      );
+    })
+    return(
+      <div>
+        <p>my text</p> {playlists}
+        </div>
+    )
+  }
 }
 
 export default PlaylistsShowContainer;
